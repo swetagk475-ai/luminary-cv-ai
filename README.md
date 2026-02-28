@@ -1,4 +1,4 @@
-# ✨ Luminary CV: Agentic Resume & Portfolio Builder
+# Luminary CV: Agentic Resume & Portfolio Builder
 
 Luminary CV is a high-performance AI-driven platform that transforms raw career data into professional resumes and digital portfolios. It uses a **Multi-Agent Orchestration** system to analyze job descriptions and provide semantic matching scores.
 
@@ -6,17 +6,17 @@ Luminary CV is a high-performance AI-driven platform that transforms raw career 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-* **✨ AI Resume Designer:** Generate Modern, Classic, or Professional resumes using dynamic Jinja2 templates.
-* **📈 Agentic JD Matcher:** * **Agent 1 (Analyzer):** Extracts technical keywords and requirements from any Job Description.
+* **AI Resume Designer:** Generate Modern, Classic, or Professional resumes using dynamic Jinja2 templates.
+* **Agentic JD Matcher:** * **Agent 1 (Analyzer):** Extracts technical keywords and requirements from any Job Description.
     * **Agent 2 (Matcher):** Performs semantic analysis between your resume and the JD to provide a compatibility score.
-* **🌙 Deep Space Mode:** A premium, high-contrast dark UI for a modern developer experience.
-* **🌐 Web Portfolio:** Instantly render a hosted digital portfolio based on your resume data.
+* **Deep Space Mode:** A premium, high-contrast dark UI for a modern developer experience.
+* **Web Portfolio:** Instantly render a hosted digital portfolio based on your resume data.
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 * **Frontend:** [Streamlit](https://streamlit.io/)
 * **AI Engine:** HuggingFace / Groq (via custom `AIEngine` class)
@@ -25,7 +25,7 @@ Luminary CV is a high-performance AI-driven platform that transforms raw career 
 
 ---
 
-## 📦 Installation & Local Setup
+## Installation & Local Setup
 
 1. **Clone the repo:**
    ```bash
