@@ -9,7 +9,8 @@ Luminary CV is a high-performance AI-driven platform that transforms raw career 
 ## Key Features
 
 * **AI Resume Designer:** Generate Modern, Classic, or Professional resumes using dynamic Jinja2 templates.
-* **Agentic JD Matcher:** * **Agent 1 (Analyzer):** Extracts technical keywords and requirements from any Job Description.
+* **Agentic JD Matcher:**
+    * **Agent 1 (Analyzer):** Extracts technical keywords and requirements from any Job Description.
     * **Agent 2 (Matcher):** Performs semantic analysis between your resume and the JD to provide a compatibility score.
 * **Deep Space Mode:** A premium, high-contrast dark UI for a modern developer experience.
 * **Web Portfolio:** Instantly render a hosted digital portfolio based on your resume data.
