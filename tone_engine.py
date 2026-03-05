@@ -6,7 +6,7 @@ class AIEngine:
         self.client = None 
         try:
             self.token = st.secrets["HUGGINGFACE_API_KEY"] 
-            self.repo_id = "meta-llama/Llama-3.2-3B-Instruct" 
+            self.repo_id = "meta-llama/Llama-3.1-8B-Instruct:novita" 
             self.client = InferenceClient(model=self.repo_id, token=self.token)
         except Exception as e:
             st.error(f"Secret Key Error: {e}")
@@ -47,4 +47,5 @@ class AIEngine:
             )
             return response.choices[0].message.content.strip()
         except Exception as e:
+
             return f"AI Error during processing: {e}"
